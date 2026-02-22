@@ -17,7 +17,10 @@ venv\Scripts\activate
 # 3. Instalar dependencias
 pip install -r requirements.txt
 
-# 4. Ejecutar
+# 4. Crea la carpeta Output
+mkdir output
+
+# 5. Ejecutar
 python src/scraper.py
 ```
 
